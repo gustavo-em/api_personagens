@@ -1,6 +1,6 @@
-
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import 'reflect-metadata'
 import { Personagens } from "./Personagens";
+import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity('caracteristicas_personagens')
 export class CaracteristicasPersonagens {

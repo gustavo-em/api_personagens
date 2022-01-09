@@ -8,10 +8,10 @@
   "username": "postgres",
   "password": "postgres",
   "database": "postgres",
-  "entities": ["src/entities/*.ts"],
+  "entities": ["dist/entities/*.js"],
   "cli": {
-    "migrationsDir": "src/migrations"
+    "migrationsDir": "dist/migrations"
   },
-  "migrations": ["src/migrations/*.ts"],
+  "migrations": ["dist/migrations/*.js"],
   "logging": true
 }

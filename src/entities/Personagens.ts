@@ -1,4 +1,4 @@
-
+import 'reflect-metadata'
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { CaracteristicasPersonagens } from "./CaracteristicasPersonagens";
 
